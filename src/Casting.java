@@ -15,6 +15,8 @@ public class Casting {
             categoriaDescricao = "Tecnologia";
         } else if (categoria == 'H') {
             categoriaDescricao = "História";
+        } else {
+            categoriaDescricao = "Categoria invalida";
         }
         System.out.println("Livro cadastrado: \"" + titulo + "\", de " + autor + ". Ele possui " + numeroDePaginas + " páginas, custa R$" + preco + " e pertence à categoria " + categoriaDescricao + ".");
     }
