@@ -4,7 +4,7 @@ public class Casting {
         String autor = "Antoine de Saint-Exupéry";
         int numeroDePaginas = 96;
         double preco = 39.99;
-        char categoria = 'F';
+        char categoria = 'N';
 
         String categoriaDescricao;
         if (categoria == 'F'){
