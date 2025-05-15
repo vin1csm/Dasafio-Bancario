@@ -6,7 +6,7 @@ public class Casting {
         double preco = 39.99;
         char categoria = 'F';
 
-        String categoriaDescricao = "";
+        String categoriaDescricao;
         if (categoria == 'F'){
             categoriaDescricao = "Ficção";
         } else if (categoria == 'N') {
